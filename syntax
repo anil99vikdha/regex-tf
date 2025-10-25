@@ -1,0 +1,13 @@
+^     → Start of string
+$     → End of string
+[a-z] → Lowercase letters 
+[A-Z] → Upper letters
+[0-9] → Digits
++     → One or more
+{3,24} → Between 3 and 24 characters
+|     → OR
+()    → Grouping
+\\ escape character
+
+
+[a-z][A-z]+
